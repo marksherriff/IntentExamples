@@ -79,6 +79,11 @@ public class MainActivity extends AppCompatActivity {
         startService(intent);
     }
 
+    public void stopService(View view) {
+        Intent intent = new Intent(this, MyService.class);
+        stopService(intent);
+    }
+
     public void implicitIntent(View view) {
         Intent sendIntent = new Intent();
         sendIntent.setAction(Intent.ACTION_SEND);

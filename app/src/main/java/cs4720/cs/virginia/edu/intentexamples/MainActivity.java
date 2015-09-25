@@ -1,5 +1,6 @@
 package cs4720.cs.virginia.edu.intentexamples;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -11,7 +12,7 @@ import android.view.View;
 
 import java.net.URI;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
